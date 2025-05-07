@@ -12,8 +12,8 @@ To create a class named 'Clock' with Integer variable Hour, Mins and Secs.
 6.	Define a class named 'Test'.
 7.	Define the 'main' method within the 'Test' class.
 9.	Create an object 'obj' of the 'Clock' class.
-10.	 Get the input from the user.
-11.	 Print the program.
+10.	Get the input from the user.
+11.	Print the program.
 12.	End
 
 
