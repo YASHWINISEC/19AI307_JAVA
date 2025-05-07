@@ -9,9 +9,9 @@ To develop a Java program to check given number is positive or negative number.
 3.	Create a Scanner object 'sc' to read input from the user
 4.	Read an integer input from the user and store it in 'num'
 5.	Check if 'num' is less than 0:
-a.	If true, print 'num' followed by " is Negative".
-b.	If false, print 'num' followed by " Positive".
-6.	End
+6.	a.	If true, print 'num' followed by " is Negative".
+7.	b.	If false, print 'num' followed by " Positive".
+8.	End
 
 ## PROGRAM:
  ```
