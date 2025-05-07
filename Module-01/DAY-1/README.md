@@ -1,18 +1,20 @@
 # Ex.No:1(A) CLASS & OBJECTS
 
 ## AIM:
-To create a class named 'Student' with String variable 'name' and String variable 'address'.
+To create a class named 'Clock' with Integer variable Hour, Mins and Secs.
 
 ## ALGORITHM :
 1.	Start the program.
-2.	Define a class named 'Student'
-3.	Declare a String variable 'name' and initialize it with the value "John"
-4.	Declare a String variable 'address' and initialize it with the value "Chennai"
-5.	Define a class named 'Test'
-6.	Define the 'main' method within the 'Test' class
-7.	Create an object 'obj' of the 'Student' class
-8.	Print the value of 'name' and 'address' variables of the 'obj' object
-9.	End
+2.	Define a class named 'Clock'.
+3.	Declare a Integer variable 'Hours'.
+4.	Declare a Integer variable 'Mins'.
+5.	Declare a Integer variable 'Secs'.
+6.	Define a class named 'Test'.
+7.	Define the 'main' method within the 'Test' class.
+9.	Create an object 'obj' of the 'Clock' class.
+10.	 Get the input from the user.
+11.	 Print the program.
+12.	End
 
 
 
@@ -20,22 +22,28 @@ To create a class named 'Student' with String variable 'name' and String variabl
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: YASHWINI M
+RegisterNumber:  212223230249
 */
+class Clock
+{
+int hours, mins, sec;
+}
+public class Test{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        Clock obj = new Clock();
+        obj.hours=scanner.nextInt();
+        obj.mins=scanner.nextInt();
+        obj.sec=scanner.nextInt();
+        System.out.println(+obj.hours+"/"+obj.mins+"/"+obj.sec);
+    }
+}
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/d52bb790-0496-4047-a18a-d06ed0af62f0)
 
 ## RESULT:
-Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
+Thus, the program is completed successfully 
