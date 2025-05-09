@@ -54,4 +54,4 @@ public class SumOfDigits {
 ![image](https://github.com/user-attachments/assets/8925b0d4-9d2e-4a3a-8538-43562cac4748)
 
 ## RESULT:
-Thus the java program for calculate cube of a number using static method has been executed successfully.
+Thus the java program for SumOfDigits using static and method has been executed successfully.
