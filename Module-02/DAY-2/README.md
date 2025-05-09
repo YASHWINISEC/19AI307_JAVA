@@ -38,4 +38,4 @@ private void display()
 ![image](https://github.com/user-attachments/assets/83a94146-7e18-45aa-9ba8-07de9e1d9682)
 
 ## RESULT:
-Thus the java program to display the addition number using private modifiers only was executed successfully.
+Thus the Java Program to display "welcome to java" using modifiers was executed successfully.
