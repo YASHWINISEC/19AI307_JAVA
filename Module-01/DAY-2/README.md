@@ -48,4 +48,4 @@ public class variables{
 ![image](https://github.com/user-attachments/assets/254bce92-0867-4cde-8796-000b8a94ae7e)
 
 ## RESULT:
-Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
+Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' or 'a < b' are true is created successfully.
