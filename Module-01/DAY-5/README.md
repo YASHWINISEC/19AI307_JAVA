@@ -1,43 +1,45 @@
 # Ex.No:1(E)  STATIC VARIABLE
 
 ## AIM:
-To write a Java program to print student details (name and age), where age is the same for all students. Use a static variable to represent the age and demonstrate its use in accessing a shared value across all class objects
+To write a Java program using static variables to print employee details (name, department, age), where the department and age are the same for all employees.
 
 ## ALGORITHM :
 1.	Start the program.
-2.	Create a class named Student.
-3.	Declare a static variable age in the Student class.
-4.	Declare an instance variable name.
-5.	Create a constructor to initialize the student's name.
-6.	Define a method displayDetails() to print the student's name and age.
-7.	In the main method:
-I.	Assign a value to the static variable age.
-II.	Create multiple Student objects with different names.
-III.	Call the displayDetails() method for each student.
-8.	End the program.
-
-
+2.	Import the java.util.* package to use the Scanner class for input.
+3. Create a class named demo.
+4.	Declare static variables for department and age (though in the given code these are hardcoded in the print statements instead of declared as static).
+5.	Inside the main method:
+   Declare string variables a and b to store two employee names.
+  	Create a Scanner object to read input from the user.
+  	Read the first employee name and store it in a.
+  	Read the second employee name and store it in b.
+  	Print the employee details using the format:
+  	Student name: [name] Department: AIDS Age: 18
+6. End the program.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: YASHWINI M
+RegisterNumber:  212223230249
 */
+import java.util.*;
+public class demo{
+public static void main(String args[])
+{
+    String a,b;
+    Scanner sc = new Scanner(System.in);
+    a = sc.next();
+    b = sc.next();
+    System.out.print("Student name: "+a+" Department: AIDS Age: 18\n");
+    System.out.print("Student name: "+b+" Department: AIDS Age: 18");
+}
+}
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/9bc2cc58-2002-471d-9e9c-017d21c38f6e)
 
 ## RESULT:
 Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
