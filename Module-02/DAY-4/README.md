@@ -51,4 +51,4 @@ public class demo {
 ![image](https://github.com/user-attachments/assets/0b137b15-7285-4765-8f73-d7a61b1d93a0)
 
 ## RESULT:
-Thus the java program that returns the sum of all the values in a 2D array was executed successfully.
+Thus the java program for multidimensional array to read the string values for array and then display the values row by row was executed successfully.
