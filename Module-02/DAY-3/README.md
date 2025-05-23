@@ -18,32 +18,32 @@ To create a java program to read 5 values and display the all 5 values from arra
 7.	Close the `scanner` to release resources
 8.	End
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Single Array using Java
 Developed by: 
-RegisterNumber:  
+RegisterNumber:
+
+ import java.util.Scanner;
+public class demo {
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        int[] numbers = new int[5];
+        for (int i = 0; i < 5; i++) {
+            numbers[i] = scanner.nextInt();
+        }
+        System.out.print("Elements in Array are : \n");
+        for (int i = 0; i < 5; i++) {
+            System.out.print(numbers[i] + "  ");
+        }
+    }
+}
 */
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/3c296af2-6254-4498-96c3-5375c118d849)
 
 ## RESULT:
 Thus, the Java program Thus the java program to read 5 values and display the all 5 values from array using single dimensional  was executed successfully.
-
-
