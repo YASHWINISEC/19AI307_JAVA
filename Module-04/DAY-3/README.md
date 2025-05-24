@@ -17,8 +17,8 @@ To Create a Java program to implement super keyword in constructor.
  ```
 /*
 Program to implement a Constructor Chaining using Java
-Developed by: 
-RegisterNumber:
+Developed by: YASHWINI M
+RegisterNumber: 212223230249
 
 class Bird {
     void display(){
