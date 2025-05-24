@@ -5,9 +5,9 @@ To create  a Java program to perform the inheritance concept for employee detail
 
 ## ALGORITHM :
 1.	Start the Program
-2.	Define class `Person`:
+2.	Define class `Employee`:
 -	a) Declare `emp_id`, `name`, and `dept` as instance variables
-3.	Define class `Employee` that extends `Person`:
+3.	Define class `Departments` that extends `Employee`:
 -	a) Define method `getDetails()`:
 -	i) Create a `Scanner` object `sc`
 -	ii) Read `name`, `emp_id`, and `dept` from user input
