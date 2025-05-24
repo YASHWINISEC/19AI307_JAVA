@@ -5,48 +5,47 @@ To Create a Java program to implement super keyword in constructor.
 
 ## ALGORITHM :
 1.  Start the Program.
-2.	Define class `College`:
--	a) Define method `display()` that prints "I am a Vehicle"
-3.	Define class `Student` that extends `College`:
--	a) Override method `display()` to print "I am a Car"
--	b) Define method `print()`:
--	i) Call `super.display()` to invoke `display()` from `College` class
--	ii) Call `this.display()` to invoke `display()` from `Student` class
-4.	Define `Main` class with `main` method:
--	a) Create a `Student` object `sc`
--	b) Call `sc.print()` to execute the `print()` method
-5.	End
-
-
-
-
-
-
+2.	 Define Bird: The program learns about Bird objects, which can display() "I am a Bird".
+3.	 Define Parrot: It then learns about Parrot objects, which are a type of Bird but have their own display() method that says "I am a Parrot".
+4.	 Create a Parrot: The program makes a new Parrot object and names it obj.
+5.	 Parrot Displays: It tells obj (the Parrot) to display(), so "I am a Parrot" is printed.
+6.	 Create a Bird: The program then makes a new Bird object and names it obj2.
+7.	 Bird Displays: It tells obj2 (the Bird) to display(), so "I am a Bird" is printed.
+8.	 End
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Constructor Chaining using Java
 Developed by: 
-RegisterNumber:  
+RegisterNumber:
+
+class Bird {
+    void display(){
+        System.out.println("I am a Bird");
+    }
+}
+class Parrot extends Bird {
+    
+    void display(){
+        System.out.println("I am a Parrot");
+    }  
+}
+
+public class Main {
+  public static void main(String[] args) {
+      Parrot obj = new Parrot();
+      obj.display();
+      Bird obj2 = new Bird();
+      obj2.display();
+  }
+}
+
 */
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/105c8528-38dc-4171-91f3-0e19a773461d)
 
 ## RESULT:
 Thus the java program for constructor chaining was executed successfully.
-
-
-
-
