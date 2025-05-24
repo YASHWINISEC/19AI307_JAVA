@@ -1,51 +1,46 @@
-# Ex.No:4(E)  PARAMETERIZED CONSTRUCTOR
+# Ex.No:4(E) Class definition and Object instantiation
 ## AIM:
-To write a parameterized constructor in the Employee class that initializes name and designation, and then call getter methods in the main() method of another class (Sample) to display the values.
+Write a Java program to display Citizen details [ Name, Address] with Citizenship. Citizenship  is "Indian" which is common to all Citizens. The Citizen name field is declared as static so it can occupy memory only once.
 
 ## ALGORITHM :
 
-	1.	Start the program.
-2.	Define a class Employee:
-    a.	  Declare two private string variables: name and designation.
-3.	Create a parameterized constructor in Employee:
-4.	Accept two parameters: name and designation.
-5.	Assign the parameters to the class fields.
-6.	Define two getter methods in the Employee class:
-     a.	getName() – returns the value of name.
-     b.	getDesg() – returns the value of designation.
-7.	Create another class Sample with the main method.
-8.	Inside the main method:
-     a.	Create an object of Employee using the constructor and pass "John" and "Asst.Manager" as arguments.
-     b.	Call getName() and store the result in a variable empName.
-     c.	Call getDesg() and store the result in a variable empDesg.
-9.	Print the values of empName and empDesg.
-10.	End the program
+1.	Start Program: The program begins execution at the main method in the StaticVariableExample class.
+2.	Create Student Objects: Three separate Student objects are created in memory: obj1, obj2, and obj3.
+3.	Display First Student: The display method of obj1 is called with the name "David" and place "Chennai". This prints "Name is David Address is Chennai Citizenship is Indian".
+4.	Display Second Student: The display method of obj2 is called with the name "Robin" and place "Bangalore". This prints "Name is Robin Address is Bangalore Citizenship is Indian".
+5.	Display Third Student: The display method of obj3 is called with the name "Joseph" and place "Mumbai". This prints "Name is Joseph Address is Mumbai Citizenship is Indian".
+6.	End Program: The main method finishes executing, and the program terminates.
 
-
+   
 ## PROGRAM:
  ```
 /*
 Program to implement a Parameterized Constructor Using Java
-Developed by: 
-RegisterNumber:  
+Developed by: YASHWINI M
+RegisterNumber: 212223230249
+
+public class StaticVariableExample {
+    public static void main(String[] args) {
+       Student obj1 = new Student();
+       Student obj2 = new Student();
+       Student obj3 = new Student();
+       obj1.display("David","Chennai");
+       obj2.display("Robin", "Bangalore");
+       obj3.display("Joseph","Mumbai" );
+           }
+}
+class Student {
+    String name,place;
+    void display(String name, String place)
+    {
+        System.out.println("Name is "+ name+" Address is "+ place+" Citizenship is Indian");
+    }
+}
 */
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/f8d0d7da-a6d7-4535-8521-4d8bdc89a8b8)
 
 ## RESULT:
-Thus, the  java program was successfully demonstrates the use of a parameterized constructor to initialize class fields.
-
- 
-
-
+Thus, the  java program was successfully demonstrates the class definition object instantiation.
