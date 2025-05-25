@@ -24,7 +24,7 @@ RegisterNumber:  212223230249
 		for (int i = 0; i <= 1; i++) {
 			System.out.print("Welcome :: ");
 			try {
-				Thread.sleep(600);
+				Thread.sleep(400);
 			} catch (InterruptedException e) {
 
 			}
