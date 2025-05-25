@@ -1,46 +1,42 @@
-# Ex.No:6(E)  MULTIPLE INHERITANCE
+# Ex.No:6(E)  SWAPING VARIABLES 
 
 ## AIM:
-To write a Java program using multiple inheritance through interfaces to read student details and marks, calculate the average, and display the mark sheet.
+To write a Java programs to swap the values of the two variables by without using a third variable. Get Input value from user.
 
 ## ALGORITHM :
 
 1.	Start the program.
-2.	Create interface Student:
-a.	Declare methods to read name and rollno.
-3.	Create interface Studentdet:
-a.	Declare a method to read marks of 6 subjects and calculate the average.
-b.	Create a class Studentdetails that implements both interfaces:
-c.	Define variables for name, roll number, marks array, and average.
-4.	Implement all methods from the interfaces.
-a.	Create a display() method to show student details and average.
-5.	In main() method:
-a.	Create an object of Studentdetails.
-b.	Call the methods to get input and display results.
-6.	End the program.
-
+2.	Prepare Input: The program sets up to receive input from the user.
+3.	Declare Variables: Two integer variables, a and b, are declared to store numbers.
+4.	Read First Number: The program reads the first integer value entered by the user and stores it in variable a.
+5.	Read Second Number: The program reads the second integer value entered by the user and stores it in variable b.
+6.	Print Swapped Values: The program prints the values of a and b, but in a swapped order. It displays the value of b as the new value of a, and the value of a as the new value of b.
+7.	End the program.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
+Developed by: YASHWINI M
+RegisterNumber: 212223230249
+
+import java.util.*;
+public class demo{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int a;
+        int b;
+        a = sc.nextInt();
+        b = sc.nextInt();
+        System.out.println("After swapping a= "+b+" b="+a);
+        
+    }
+}
 */
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/63286339-0642-42d9-8f25-f4bc2147dca2)
 
 ## RESULT:
-
 Thus, the java program demonstrates multiple inheritance using interfaces and successfully displays the mark sheet of a student by collecting personal and academic data. 
