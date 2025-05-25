@@ -1,47 +1,56 @@
 # Ex.No:5(A)  DATA HIDING AND ENCAPSULATION
 ## AIM:
-To Create a java program to display name and location of the employee and use the encapsulation concepts
+Write a java program to calculate the area, pass the value for length and breadth (5,6) in area constructor method using encapsulation concepts.
 
 ## ALGORITHM :
 1.  Start the program
-2.	Define class `Employee`:
--	a) Declare two private `String` variables: `name1` and `name2`
--	b) Define `setname(String n1)` method to set `name1` to `n1`
--	c) Define `setname2(String n2)` method to set `name2` to `n2`
--	d) Define `get1()` method to return `name1`
--	e) Define `get2()` method to return `name2`
-3.	Define `Main` class with `main` method:
--	a) Create `Scanner` object `sc` for input
--	b) Read `name1` and `name2` from user input
--	c) Create ` Employee ` object `hl`
--	d) Use `hl.setname(name1)` and `hl.setname2(name2)` to set the names
--	e) Print the values of `hl.get1()` and `hl.get2()`
-4.	End
-
-
-
+2.	Define Rectangle Blueprint: Create a plan for a rectangle that stores its length and breadth, and can calculate its own area.
+3.	Start Program: Begin the main part of the program.
+4.	Make a Rectangle: Create a new rectangle with a length of 5 and a breadth of 6.
+5.	Calculate Area: Ask the rectangle to calculate its area (5 multiplied by 6).
+6.	Show Area: Display the calculated area on the screen.
+7.	End
 
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Data Hiding & Encapsulation using Java
-Developed by: 
-RegisterNumber:  
+Developed by: YASH
+RegisterNumber:
+
+class area{
+    int len;
+    int brea;
+    public area(int len,int brea){
+        this.len = len;
+        this.brea = brea;
+    }
+    public int getlen(){
+        return len;
+    }
+    public int getbrea(){
+        return brea;
+    }
+    public int areaa(){
+        return len*brea;
+    }
+}
+public class demo{
+    public static void main(String args[]){
+        area obj = new area(5,6);
+        int areaaa = obj.areaa();
+        System.out.println("Area: "+areaaa);
+    }
+}
+
 */
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/8ea618b0-5624-429b-9a00-0a68b88511d0)
 
 
 
 ## RESULT:
-Thus , the  java program to display name and location of the employee and use the encapsulation concepts executed successfully.
+Thus , the  java program to calculate the area, pass the value for length and breadth (5,6) in area constructor method using encapsulation concepts is executed successfully.
