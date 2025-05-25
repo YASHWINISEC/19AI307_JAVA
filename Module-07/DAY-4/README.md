@@ -16,23 +16,28 @@
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+Developed by: YASHWINI M
+RegisterNumber:  212223230249
+
+  class Display {
+	static synchronized void wish(String name) {
+		for (int i = 0; i <= 1; i++) {
+			System.out.print("Welcome :: ");
+			try {
+				Thread.sleep(600);
+			} catch (InterruptedException e) {
+
+			}
+			System.out.println(name);
+		}
+	}
+
+}
 */
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/f210467a-7a2d-4816-8146-52ca79b30af1)
 
 ## RESULT:
 Thus the java program for synchronization was executed successfully.
-
