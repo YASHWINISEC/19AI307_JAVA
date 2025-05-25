@@ -1,4 +1,4 @@
-# Ex.No:7(C)             THREAD IN JAVA
+# Ex.No:7(C) THREAD IN JAVA
 ## AIM:
  To Develop a Java program to create Thread using Thread class.
 
@@ -17,37 +17,33 @@
 -	c) Start the thread with `t1.start()`.
 5.	End
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
+Developed by: YASHWINI M
+RegisterNumber: 212223230249
+
+   import java.util.*;
+    public class Multi extends Thread
+    {  
+        Scanner sc = new Scanner(System.in);
+    public void run(){
+        String name = sc.nextLine();
+        System.out.println("Thread Name:"+name);
+    }
+    public static void main(String args[])
+    {  
+        Multi a = new Multi();
+        a.run();
+     
+     }  
+    }  
 */
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/5d05bb58-72bb-4928-9a16-dc15896c9124)
 
 ## RESULT:
 Thus the Java program for the creation of Thread using Thread class was executed successfully.
-
-
-
-
-
-
-
