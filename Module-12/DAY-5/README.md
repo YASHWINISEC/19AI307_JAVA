@@ -1,15 +1,21 @@
 # Ex.No:12(E)  JAVA DEQUEUE
 
 ## AIM:
-To demonstrate how to remove and display the first element from a Deque using the pollFirst() method in Java Collections with String values.
+Write a java program to display the removal  element from the Dequeue using pollLast method  in java collection.(Use string)
+
 ## ALGORITHM :
 
-1.	Import java.util.*.
-2.	Create a Deque using LinkedList.
-3.	Add several string elements to the deque.
-4.	Use pollFirst() to remove and return the first element.
-5.	Print the removed element.
-6.	Display the remaining elements in the deque.
+1.	Initialize a Scanner object to read input from the console.
+2.	Create an ArrayDeque (which implements the Deque interface) named 'tee' to store strings.
+3.	Read an integer 's' from the console. This integer will determine the number of string inputs to read.
+4.	Start a loop that iterates 's' times (from 0 to s-1).
+5.	Inside the loop:
+   a. Read a string input from the console using the Scanner.
+   b. Add the read string to the end of the 'tee' Deque using the 'offer()' method.
+6.	Print the message "Display the element of Dequeue:" to the console.
+7.	Print the entire 'tee' Deque to the console. This will display all the elements in the order they were added.
+8.	Get the last element that was added to the 'tee' Deque using the 'getLast()' method and print it to the console.
+
 
 ## PROGRAM:
  ```
@@ -19,40 +25,27 @@ Developed by: Yashwini M
 RegisterNumber: 212223230249
 */
 ```
-
-## Sourcecode.java:
-```JAVA
 import java.util.*;
-
-public class deQueueDemo {
-	
-
-	public static void main(String args[])
-	{
-	
-		Deque<Integer> dq = new LinkedList<Integer>();
-        
-	    Scanner sc=new Scanner(System.in);
-	    int size=sc.nextInt();
-	    for(int i=0;i<size;i++){
-	        dq.add(sc.nextInt());
-	    }
-	    System.out.println("Display the element of Dequeue:");
-		System.out.println(dq);
-        System.out.println("Display the element of Dequeue after add first element :");
-        dq.addLast(150);
-		System.out.println(dq);
-		
-	}
+public class demo{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        Deque<String> tee = new ArrayDeque<>();
+        int s = sc.nextInt();
+        for(int i=0;i<s;i++){
+            String a = sc.next();
+            tee.offer(a);
+        }
+        System.out.println("Display the element of Dequeue:");
+        System.out.println(tee);
+        System.out.println(tee.getLast());
+    }
 }
+
 ```
 
 ## OUTPUT:
-
-![image](https://github.com/user-attachments/assets/1e62a533-9914-4388-a0d2-85efe9f57251)
+![image](https://github.com/user-attachments/assets/2d306db2-6707-4b97-b1c1-a6373720305a)
 
 ## RESULT:
 
 Thus the java program successfully demonstrates how to use pollFirst() to remove and display the first element from a Deque of strings.
-
-
