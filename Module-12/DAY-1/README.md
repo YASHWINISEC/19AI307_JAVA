@@ -29,15 +29,35 @@ RegisterNumber:
 */
 ```
 
-## Sourcecode.java:
-
-
-
+```
+import java.util.*;  
+public class ss {  
+  public static void main(String args[]){  
+  
+   TreeMap<Integer,String> tree_map=new TreeMap<Integer,String>();      
+  Scanner sc=new Scanner(System.in);
+   int size=sc.nextInt();
+   for(int i=0;i<size;i++)
+   {
+      Integer n1 = sc.nextInt();
+      String s1= sc.next();
+       
+   	  tree_map.put(n1,s1);  
+   }
+	 
+   for (Map.Entry<Integer,String> entry : tree_map.entrySet())
+   {
+    System.out.println(entry.getKey() + "=>" + entry.getValue());
+   }
+ }  
+}
+```
 
 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/6742dafd-eb6f-4d7a-a116-c28c2ddee720)
 
 
 
