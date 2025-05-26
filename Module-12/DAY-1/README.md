@@ -24,8 +24,26 @@
  ```
 /*
 Program to implement a JAVA TREE MAP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Yashwini M
+RegisterNumber: 212223230249
+
+import java.util.*;
+public class demo{
+    public static void main(String args[]){
+        TreeMap<Integer,String> tee = new TreeMap<Integer,String>();
+        Scanner sc = new Scanner(System.in);
+        int s = sc.nextInt();
+        for(int i=0;i<s;i++){
+            Integer a = sc.nextInt();
+            String b = sc.next();
+            tee.put(a,b);
+        }
+        for(Map.Entry<Integer,String> t:tee.entrySet())
+        {
+            System.out.println(t.getKey() + "=>"+t.getValue());
+        }
+    }
+}
 */
 ```
 
@@ -38,6 +56,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![Uploading image.png…]()
 
 
 
