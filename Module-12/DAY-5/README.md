@@ -24,7 +24,7 @@ Program to implement a JAVA DEQUEUE
 Developed by: Yashwini M
 RegisterNumber: 212223230249
 */
-```
+
 import java.util.*;
 public class demo{
     public static void main(String args[]){
